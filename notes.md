@@ -17,3 +17,27 @@
 - Points to a filename.
 - Can link to folders and cross over to different hard drives/partitions.
 - Breaks if the original file is deleted.
+
+# navigating through directory history
+- we use pushd to change to the directory instead of cd.
+- using popd will then send you back to those directory.
+
+# Working with files
+## viewing files
+* cat - Used for viewing files that are not very long; it does not provide any scroll-back.
+* tac - Used to look at a file backwards, starting with the last line.
+* less - Used to view larger files because it is a paging program. It pauses at each screen full of text, provides scroll-back capabilities, and lets you search and navigate within the file.
+- NOTE: Use / to search for a pattern in the forward direction and ? for a pattern in the backward direction. An older program named more is still used, but has fewer capabilities: "less is more".
+* tail - Used to print the last 10 lines of a file by default. You can change the number of lines by doing -n 15 or just -15 if you wanted to look at the last 15 lines instead of the default.
+* head - The opposite of tail; by default, it prints the first 10 lines of a file.
+
+## Searching Files
+* stdin -> 0
+* stdout -> 1
+* stderr -> 2
+
+## Wildcards and Matching Filenames
+* ? -> Matches any single character
+* * -> Matches any string of characters
+* [set] -> Matches any character in the set of characters, for example [adf] will match any occurrence of a, d, or f
+* [!set] -> Matches any character not in the set of characters
