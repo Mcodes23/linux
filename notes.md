@@ -41,3 +41,11 @@
 * * -> Matches any string of characters
 * [set] -> Matches any character in the set of characters, for example [adf] will match any occurrence of a, d, or f
 * [!set] -> Matches any character not in the set of characters
+
+## Using advanced find option
+- find is able to run commands on the files that match your search criteria.
+- The -exec option is used for this purpose.
+- To find and remove all files that end with .swp:
+* $ find -name "*.swp" -exec rm {} ';'
+- you have to end the command with either ';' (including the single-quotes) or \;. Both forms are fine.
+- One can also use the -ok option, which behaves the same as -exec, except that find will prompt you for permission before executing the command. 
