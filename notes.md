@@ -49,3 +49,8 @@
 * $ find -name "*.swp" -exec rm {} ';'
 - you have to end the command with either ';' (including the single-quotes) or \;. Both forms are fine.
 - One can also use the -ok option, which behaves the same as -exec, except that find will prompt you for permission before executing the command. 
+
+# Linux documentation Resources
+## man pages
+* man -f = whatis
+* man -k = apropos
