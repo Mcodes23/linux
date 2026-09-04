@@ -54,3 +54,39 @@
 ## man pages
 * man -f = whatis
 * man -k = apropos
+
+# Processes
+- An instance of one or more related tasks(thread) executing in your computer.
+- A single command may start multiple process simultaneously.
+- some are independent to each other and some are related.
+
+## Process Types
+# 1. Interactive processes
+- must be started by the use either in the terminal or gui.
+- e.g bash, firefox, top, slack, Libreoffice
+
+# 2. batch processes 
+- Automatic processes which are scheduled from and then disconnected from the terminal.
+- These tasks are queued and work on a FIFO (First-In, First-Out) basis.
+- e.g updatedb, Idconfig
+
+# 3. Daemons
+- Server processes that run continuously.
+- Many are launched during system startup and then wait for a user or system request indicating that their service is required.
+- e.g httpd, sshd, libvirtd, cupsd
+
+# 4. Threads
+- Lightweight processes. 
+- These are tasks that run under the umbrella of a main process, sharing memory and other resources, but are scheduled and run by the system on an individual basis.
+- e.g dconf-service, gnome-terminal-server
+
+# 5. Kernel Threads
+- Kernel tasks that users neither start nor terminate and have little control over. 
+- These may perform actions like moving a thread from one CPU to another, or making sure input/output operations to disk are completed.
+- e.g kthreadd, migration, ksoftirqd
+
+## Process Scheduling and States
+* Schedular -> constantly shifts processes on and off the CPU and allocating resources i.e time and space
+
+![Alt text](/home/mateli/Downloads/t2b7qgagtbs5-asset-v1_LinuxFoundationXLFS101x1T2023typeassetblockLFS101x_2023_CourseImages-13.png)
+
