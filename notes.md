@@ -88,5 +88,5 @@
 ## Process Scheduling and States
 * Schedular -> constantly shifts processes on and off the CPU and allocating resources i.e time and space
 
-![Alt text](/home/mateli/linux/process.png)
+![Process Diagram](process.png)
 
