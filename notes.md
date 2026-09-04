@@ -88,5 +88,9 @@
 ## Process Scheduling and States
 * Schedular -> constantly shifts processes on and off the CPU and allocating resources i.e time and space
 
-![Alt text](/home/mateli/Downloads/t2b7qgagtbs5-asset-v1_LinuxFoundationXLFS101x1T2023typeassetblockLFS101x_2023_CourseImages-13.png)
+![Alt text](/home/mateli/Downloads/t2b7qgagtbs5-asset-v1_LinuxFoundationXLFS101x1T2023typeassetblockLFS101x_2023_CourseImages-13.png<<<<<<< HEAD
+Main branch status
+=======
+Feature branch status
+>>>>>>> b54b373 (Update status from feature branchv)
 
