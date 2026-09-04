@@ -88,5 +88,5 @@
 ## Process Scheduling and States
 * Schedular -> constantly shifts processes on and off the CPU and allocating resources i.e time and space
 
-![Process Diagram](process.png)
+![Process Diagram](images/process.png)
 
